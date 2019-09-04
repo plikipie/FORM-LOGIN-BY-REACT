@@ -85,7 +85,7 @@ class Notes extends React.Component{
                 <div>
                     <p>
                         Anda Sudah Login.
-                        <button onClick={this.doLogout}>Logout</button>
+                        <button className="btn-logout" onClick={this.doLogout}>Logout</button>
                     </p>
                     <NoteForm update={this.updateList}/>
                 </div>

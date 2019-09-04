@@ -81,10 +81,12 @@ class NoteForm extends React.Component{
             cols={70}
             rows={5}
             name="content"
+            placeholder="Tuliskan sesuatu..."
+           
             value={this.state.content}
             onChange={this.handleContentChange}/>
         <br/><br/>
-        <button className="btn">Kirim</button>
+        <button className="btn-blue">Kirim</button>
         </form>
         <br />
         

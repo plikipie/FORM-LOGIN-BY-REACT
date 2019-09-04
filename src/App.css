@@ -31,3 +31,38 @@
     transform: rotate(360deg);
   }
 }
+
+
+.btn-blue {
+  color:blue;
+  background-color: #61dafb;
+  border-color: #61dafb;
+  border-radius: 10%;
+
+  display: inline-block;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 15 px;
+  text-align: center;
+
+}
+
+.btn-logout {
+  color:white;
+  background-color: red;
+  font-size:15px;
+  border-radius: 10%;
+  border-color: rebeccapurple;
+  display:inline-block;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.title {
+  color:yellow;
+  background-color: gold;
+}
+
+.btn-rgs {
+  color: aqua;
+  background-color:blue;
+}
